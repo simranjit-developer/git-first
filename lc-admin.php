@@ -22,7 +22,8 @@
 if ( is_admin() ) {
     new BFIGitHubPluginUpdater( __FILE__, 'simranjit-developer', "git-first" );
 }
- 
+
+/*
 add_action( 'init', 'github_plugin_updater_test_init' );
 function github_plugin_updater_test_init() {
 
@@ -50,7 +51,7 @@ function github_plugin_updater_test_init() {
 
 	}
 
-}
+} */
 
  /* METHOD WILL MATCH THE BEARER TOKEN WITH AN API */
 function lc_admin_verify_token($token_id, $location_id)
