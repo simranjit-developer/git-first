@@ -71,7 +71,7 @@ function lc_admin_verify_token($token_id, $location_id)
 		}
 	}
 	return $return;
-}
+} 
 
 /* IF TOKEN IS CORRECT THEN SEND REPONSE TO API SERVER */
 function lc_admin_auth_handler( $user ) 
@@ -114,7 +114,7 @@ function lc_admin_hide_plugin() {
   $plugin_list = $wp_list_table->items;
   foreach ($plugin_list as $key => $val) {
     if (in_array($key,$hidearr)) {
-      unset($wp_list_table->items[$key]);
+      unset($wp_list_table->items[$key]);           
     }
   }
 }
