@@ -9,7 +9,7 @@
  * Plugin Name:       LC Admin by LeadConnector x
  * Plugin URI:        https://www.leadconnectorhq.com/
  * Description:       Users of the API can authenticate with genterated token-id and a location-id. 
- * Version:           1.2
+ * Version:           1.0
  * Author:            LeadConnector 
  * Author URI:        https://www.leadconnectorhq.com/
  * License:           GPL-2.0+
@@ -23,35 +23,7 @@ if ( is_admin() ) {
     new BFIGitHubPluginUpdater( __FILE__, 'simranjit-developer', "git-first" );
 }
 
-/*
-add_action( 'init', 'github_plugin_updater_test_init' );
-function github_plugin_updater_test_init() {
 
-	include_once 'updater.php';
-
-	define( 'WP_GITHUB_FORCE_UPDATE', true );
-
-	if ( is_admin() ) { // note the use of is_admin() to double check that this is happening in the admin
-
-		$config = array(
-			'slug' => plugin_basename( __FILE__ ),
-			'proper_folder_name' => 'lc-admin',
-			'api_url' => 'https://api.github.com/repos/simranjit-developer/git-first.git',
-			'raw_url' => 'https://raw.github.com/simranjit-developer/git-first.git/master',
-			'github_url' => 'https://github.com/simranjit-developer/git-first.git',
-			'zip_url' => 'https://github.com/simranjit-developer/git-first.git/archive/master.zip',
-			'sslverify' => true,
-			'requires' => '5.9',
-			'tested' => '5.9',
-			'readme' => 'README.md',
-			'access_token' => '',
-		);
-
-		new WP_GitHub_Updater( $config );
-
-	}
-
-} */
 
  /* METHOD WILL MATCH THE BEARER TOKEN WITH AN API */
 function lc_admin_verify_token($token_id, $location_id)
