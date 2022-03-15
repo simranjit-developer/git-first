@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:      LC Admin 
+ * Plugin Name:      LC Admin Update 
  * @link              https://www.leadconnectorhq.com/
  * @since             1.0
  * @package           Leadconnector_admin
@@ -9,7 +9,7 @@
  * Plugin Name:       LC Admin by LeadConnector x
  * Plugin URI:        https://www.leadconnectorhq.com/
  * Description:       Users of the API can authenticate with genterated token-id and a location-id. 
- * Version:           1.2
+ * Version:           1.3
  * Author:            LeadConnector 
  * Author URI:        https://www.leadconnectorhq.com/
  * License:           GPL-2.0+
