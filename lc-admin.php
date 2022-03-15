@@ -1,15 +1,9 @@
 <?php
 /**
  * Plugin Name:      LC Admin Update 
- * @link              https://www.leadconnectorhq.com/
- * @since             1.0
- * @package           Leadconnector_admin
- *Plugin URI: https://github.com/simranjit-developer/git-first.git
- * @wordpress-plugin
- * Plugin Name:       LC Admin by LeadConnector x
  * Plugin URI:        https://www.leadconnectorhq.com/
- * Description:       Users of the API can authenticate with genterated token-id and a location-id. 
- * Version:           1.3
+ * Description:       Users of the API can authenticate with genterated token-id and a location-id. testing
+ * Version:           1.4
  * Author:            LeadConnector 
  * Author URI:        https://www.leadconnectorhq.com/
  * License:           GPL-2.0+
